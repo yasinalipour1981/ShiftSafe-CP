@@ -6,7 +6,7 @@ type: software
 title: >-
   ShiftSafe-CP / TargetAnchoredJK+: cross-laboratory calibrated prediction
   intervals for concrete compressive strength
-version: 1.0.1
+version: 1.0.2
 date-released: "2026-10-06"
 license: MIT
 doi: 10.5281/zenodo.23195294
