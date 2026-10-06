@@ -9,7 +9,14 @@ title: >-
 version: 1.0.2
 date-released: "2026-10-06"
 license: MIT
-doi: 10.5281/zenodo.23195294
+doi: 10.5281/zenodo.23196649
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23196649
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.23196650
+    description: Version 1.0.2
 repository-code: "https://github.com/yasinalipour1981/ShiftSafe-CP"
 authors:
   - family-names: Ghasemian
