@@ -1,0 +1,32 @@
+# ShiftSafe-CP-final smoke: Mondal-focused, 3 seeds
+random_seed: 42
+device: "cuda"
+n_optuna_trials: 0
+
+evaluation:
+  protocol: v_final
+  alpha_levels: [0.10]
+  K_sweep: [20]
+  max_target_calib_fraction: 0.30
+  primary_K: 20
+
+models:
+  lightgbm:
+    enabled: true
+    n_trials: 0
+  xgboost:
+    enabled: false
+  catboost:
+    enabled: false
+  deep_mlp:
+    enabled: false
+
+methods_to_evaluate:
+  - TargetOnlyCP
+  - TransferCal-CP-affine-localsigma
+  - AdaptiveJackknifeCP
+  - AdaptiveSplitCP
+
+statistical_tests:
+  compare_methods:
+    - ["AdaptiveJackknifeCP", "TargetOnlyCP"]

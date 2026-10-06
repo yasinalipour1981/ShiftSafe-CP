@@ -1,0 +1,22 @@
+# Stage-4 v3 production config: transfer-calibrated conformal
+# Merges with base.yaml via load_config extras
+
+evaluation:
+  protocol: v3
+  K_sweep: [10, 15, 20, 30, 50]
+  max_target_calib_fraction: 0.30
+  primary_K: 20
+
+methods_to_evaluate:
+  - SplitCP
+  - ShiftSafe-CP
+  - TargetOnlyCP
+  - TransferCal-CP
+  - TransferCal-CP-affine
+  - TransferCal-CP-boost
+
+statistical_tests:
+  compare_methods:
+    - ["TransferCal-CP-affine", "TargetOnlyCP"]
+    - ["TransferCal-CP-boost", "TargetOnlyCP"]
+    - ["TransferCal-CP", "TargetOnlyCP"]

@@ -1,0 +1,7 @@
+domain_i,domain_j,wasserstein_1,mmd_rbf,domain_classifier_auc,shift_severity
+D1,D2,1.7091,0.2219,0.9969,Strong
+D1,D3,2.5459,0.3541,1.0,Strong
+D1,D4,1.6487,0.365,1.0,Strong
+D2,D3,1.3608,0.4078,1.0,Strong
+D2,D4,1.1631,0.3203,1.0,Strong
+D3,D4,1.6052,0.4573,1.0,Strong

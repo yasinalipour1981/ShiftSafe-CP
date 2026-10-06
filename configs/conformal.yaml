@@ -1,0 +1,33 @@
+# Conformal prediction settings
+alpha_levels: [0.05, 0.10, 0.20]
+
+methods:
+  split_cp:
+    enabled: true
+  jackknife_plus:
+    enabled: true
+    max_calib_samples: 500
+  cqr:
+    enabled: true
+    quantiles: [0.05, 0.95]
+  shiftsafe_cp:
+    enabled: true
+    density_ratio_clip: [0.05, 20.0]
+    mondrian_min_group_size: 10
+    strength_bins: [0, 25, 40, 55, 150]
+    strength_labels: ["<25", "25-40", "40-55", ">55"]
+    fly_ash_threshold: 0.01
+
+ablations:
+  - name: "L1_only"
+    layers: [1]
+  - name: "L1_L2"
+    layers: [1, 2]
+  - name: "L1_L3"
+    layers: [1, 3]
+  - name: "full"
+    layers: [1, 2, 3]
+
+residual_scale:
+  num_boost_round: 500
+  device: "gpu"

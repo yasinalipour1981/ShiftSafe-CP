@@ -1,0 +1,38 @@
+# LODO experiment protocol
+experiment:
+  name: "lodo_cross_lab"
+  n_seeds: 10
+  base_seed: 42
+  train_calib_ratio: 0.8
+
+folds:
+  strategy: "leave_one_dataset_out"
+
+methods_to_evaluate:
+  - SplitCP
+  - Jackknife+
+  - CQR
+  - ShiftSafe-CP
+  - ShiftSafe-CP-L1
+  - ShiftSafe-CP-L1-L2
+  - ShiftSafe-CP-L1-L3
+  - GPR
+  - NGBoost
+  - DeepEnsemble
+
+timing:
+  record_fit: true
+  record_calib: true
+  record_inference: true
+  inference_batch_size: 1000
+
+statistical_tests:
+  wilcoxon_alpha: 0.05
+  compare_methods:
+    - ["ShiftSafe-CP", "SplitCP"]
+    - ["ShiftSafe-CP", "Jackknife+"]
+    - ["ShiftSafe-CP", "CQR"]
+
+output:
+  save_predictions: false
+  save_intervals: false

@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-09-20T09:56:26.862344+00:00",
+  "git_commit": "unknown",
+  "input_csv": "results\\FINAL_RESULTS_confirmatory_REVISED_142-191.csv",
+  "input_csv_hash": "510d6cb99180c0fa",
+  "parallel_jobs": 8,
+  "figures": {
+    "FIGURE_1_shift_heatmap": {
+      "function": "figure_1_shift_heatmap",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_2_reliability_diagrams": {
+      "function": "figure_2_reliability_diagrams",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_3_coverage_width_pareto": {
+      "function": "figure_3_coverage_width_pareto",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_4_conditional_coverage": {
+      "function": "figure_4_conditional_coverage",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_5_timing_comparison": {
+      "function": "figure_5_timing_comparison",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_6_example_intervals": {
+      "function": "figure_6_example_intervals",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_7_ablation_breakdown": {
+      "function": "figure_7_ablation_breakdown",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_K_width_vs_K": {
+      "function": "figure_k_width_vs_k",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_COV_coverage_vs_K": {
+      "function": "figure_coverage_vs_k",
+      "script": "scripts/make_figures.py"
+    },
+    "FIGURE_SELECT_candidate_histogram": {
+      "function": "figure_selection_histogram",
+      "script": "scripts/make_figures.py"
+    },
+    "FLOWCHART_methodology": {
+      "function": "draw_flowchart_methodology",
+      "script": "scripts/make_figures.py"
+    },
+    "FLOWCHART_lodo_pipeline": {
+      "function": "draw_flowchart_lodo",
+      "script": "scripts/make_figures.py"
+    }
+  },
+  "dropped_figures": {
+    "FIGURE_8_compliance_heatmap": "v3 pipeline lacks multi-method stored intervals; see CAPTION_NOTES.md"
+  },
+  "render_log": [
+    "FIGURE_1_shift_heatmap: ok",
+    "FIGURE_2_reliability_diagrams: ok",
+    "FIGURE_3_coverage_width_pareto: ok",
+    "FIGURE_4_conditional_coverage: ok",
+    "FIGURE_5_timing_comparison: ok",
+    "FIGURE_6_example_intervals: ok",
+    "FIGURE_7_ablation_breakdown: ok",
+    "FIGURE_COV_coverage_vs_K: ok",
+    "FIGURE_K_width_vs_K: ok",
+    "FIGURE_SELECT_candidate_histogram: ok",
+    "FLOWCHART_lodo_pipeline: ok",
+    "FLOWCHART_methodology: ok"
+  ]
+}

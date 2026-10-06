@@ -1,0 +1,50 @@
+[
+  {
+    "domain_i": "D1",
+    "domain_j": "D2",
+    "wasserstein_1": 1.709108702149637,
+    "mmd_rbf": 0.22191302478313446,
+    "domain_classifier_auc": 0.996917426545086,
+    "shift_severity": "Strong"
+  },
+  {
+    "domain_i": "D1",
+    "domain_j": "D3",
+    "wasserstein_1": 2.5458780300767447,
+    "mmd_rbf": 0.35405707359313965,
+    "domain_classifier_auc": 1.0,
+    "shift_severity": "Strong"
+  },
+  {
+    "domain_i": "D1",
+    "domain_j": "D4",
+    "wasserstein_1": 1.6487117556113424,
+    "mmd_rbf": 0.3650315999984741,
+    "domain_classifier_auc": 1.0,
+    "shift_severity": "Strong"
+  },
+  {
+    "domain_i": "D2",
+    "domain_j": "D3",
+    "wasserstein_1": 1.3607631182636006,
+    "mmd_rbf": 0.40782999992370605,
+    "domain_classifier_auc": 1.0,
+    "shift_severity": "Strong"
+  },
+  {
+    "domain_i": "D2",
+    "domain_j": "D4",
+    "wasserstein_1": 1.1631398707781395,
+    "mmd_rbf": 0.3203350007534027,
+    "domain_classifier_auc": 1.0,
+    "shift_severity": "Strong"
+  },
+  {
+    "domain_i": "D3",
+    "domain_j": "D4",
+    "wasserstein_1": 1.6051811135131584,
+    "mmd_rbf": 0.457284539937973,
+    "domain_classifier_auc": 1.0,
+    "shift_severity": "Strong"
+  }
+]

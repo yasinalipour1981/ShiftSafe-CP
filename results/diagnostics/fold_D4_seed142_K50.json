@@ -1,0 +1,22 @@
+{
+  "fold": "D4",
+  "seed": 142,
+  "alpha": 0.1,
+  "K": 50,
+  "n_calib_target": 50,
+  "n_eval": 133,
+  "splitcp_coverage": 0.045112781954887216,
+  "TransferCal-CP_coverage": null,
+  "TransferCal-CP-affine_coverage": null,
+  "TransferCal-CP-affine-localsigma_coverage": 0.9172932330827067,
+  "TransferCal-CP-boost_coverage": null,
+  "TargetOnlyCP_coverage": 0.7593984962406015,
+  "adaptive_selection": {
+    "local-ridge": 0,
+    "local-gbm": 0,
+    "affine-transfer": 0,
+    "stacked": 50,
+    "boost-transfer": 0
+  },
+  "adaptive_winner": "stacked"
+}

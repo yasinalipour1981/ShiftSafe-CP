@@ -1,0 +1,59 @@
+# Quick validation config: fast sanity run
+random_seed: 42
+device: "cuda"
+data_dir: "./data"
+raw_data_dir: "./data/raw"
+processed_data_dir: "./data/processed"
+results_dir: "./results"
+config_dir: "./configs"
+log_level: "INFO"
+log_dir: "./results/logs"
+n_optuna_trials: 0
+
+datasets:
+  D1_uci165:
+    source: "ucimlrepo"
+    ucimlrepo_id: 165
+  D2_uci182:
+    source: "ucimlrepo"
+    ucimlrepo_id: 182
+  D4_mondal:
+    source: "reconstructed"
+
+feature_engineering:
+  derive_ratios: true
+  derive_interaction: true
+
+evaluation:
+  alpha_levels: [0.10]
+  lodo_n_seeds: 1
+  train_calib_split: 0.8
+
+models:
+  lightgbm:
+    enabled: true
+    n_trials: 0
+  xgboost:
+    enabled: false
+  catboost:
+    enabled: false
+  deep_mlp:
+    enabled: true
+    epochs: 20
+    patience: 5
+    n_ensemble: 3
+
+methods:
+  jackknife_plus:
+    max_calib_samples: 80
+
+methods_to_evaluate:
+  - SplitCP
+  - CQR
+  - ShiftSafe-CP
+  - ShiftSafe-CP-L1
+  - NGBoost
+
+statistical_tests:
+  compare_methods:
+    - ["ShiftSafe-CP", "SplitCP"]

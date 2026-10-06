@@ -1,0 +1,17 @@
+\begin{tabular}{lrrrrrlrr}
+\toprule
+method & coverage & coverage_ci_lo & coverage_ci_hi & width_mpa & winkler & guarantee_scope & guaranteed & infer_time_sec \\
+\midrule
+AdaptiveJackknifeCP & 0.922 & 0.918 & 0.926 & 30.550 & 39.160 & target & True & 0.001 \\
+TabPFN-target & 0.918 & 0.914 & 0.922 & 33.940 & 40.610 & target & True & 0.275 \\
+TransferCal-CP-affine-localsigma & 0.926 & 0.922 & 0.929 & 39.750 & 45.910 & target & True & 0.001 \\
+GPR-transfer & 0.468 & 0.461 & 0.475 & 7.710 & 60.660 & none & False & 0.007 \\
+AdaptiveSplitCP & 0.909 & 0.905 & 0.914 & 53.460 & 70.610 & target & True & 0.001 \\
+TargetOnlyCP & 0.920 & 0.916 & 0.924 & 56.950 & 71.770 & target & True & 0.000 \\
+JKplus-source & 0.529 & 0.522 & 0.536 & 22.900 & 92.660 & source & True & 0.000 \\
+GPR-target & 0.373 & 0.366 & 0.380 & 6.460 & 93.510 & none & False & 0.008 \\
+WeightedCP-v2 & 0.255 & 0.248 & 0.261 & 48.580 & 201.670 & source & True & 0.003 \\
+CQR-target & 0.907 & 0.903 & 0.911 & 182.240 & 216.740 & target & True & 0.001 \\
+SplitCP & 0.042 & 0.039 & 0.045 & 2.950 & 241.340 & source & True & 0.001 \\
+\bottomrule
+\end{tabular}

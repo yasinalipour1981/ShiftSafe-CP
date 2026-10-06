@@ -1,0 +1,10 @@
+[
+  {
+    "method_a": "TransferCal-CP-affine",
+    "method_b": "TargetOnlyCP",
+    "metric": "empirical_coverage",
+    "p_value": 1.0,
+    "significant_at_0.05": false,
+    "n_pairs": 0
+  }
+]

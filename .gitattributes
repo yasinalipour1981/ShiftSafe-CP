@@ -1,0 +1,7 @@
+# Normalise line endings; mark binaries explicitly
+* text=auto
+*.png binary
+*.pdf binary
+*.tiff binary
+*.npz binary
+*.parquet binary

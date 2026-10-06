@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or the archived results, please cite the paper below
+  (under review) and this repository.
+type: software
+title: >-
+  ShiftSafe-CP / TargetAnchoredJK+: cross-laboratory calibrated prediction
+  intervals for concrete compressive strength
+version: 1.0.1
+date-released: "2026-10-06"
+license: MIT
+doi: 10.5281/zenodo.23195294
+repository-code: "https://github.com/yasinalipour1981/ShiftSafe-CP"
+authors:
+  - family-names: Ghasemian
+    given-names: Javad
+    affiliation: School of Mathematics and Computer Science, Damghan University, Damghan, Iran
+  - family-names: Alipour
+    given-names: Yasin
+    affiliation: School of Mathematics and Computer Science, Damghan University, Damghan, Iran
+  - family-names: Talebpour
+    given-names: Mohammad Hosein
+    affiliation: School of Engineering, Damghan University, Damghan, Iran
+keywords:
+  - concrete compressive strength
+  - conformal prediction
+  - prediction intervals
+  - distribution shift
+  - cross-laboratory transfer
+  - uncertainty quantification
+preferred-citation:
+  type: article
+  title: >-
+    Reliable Cross-Laboratory Prediction Intervals for Concrete Compressive
+    Strength under Distribution Shift
+  authors:
+    - family-names: Ghasemian
+      given-names: Javad
+    - family-names: Alipour
+      given-names: Yasin
+    - family-names: Talebpour
+      given-names: Mohammad Hosein
+  journal: Computers and Concrete
+  year: 2026
+  notes: Manuscript 26M-08-239, under review.

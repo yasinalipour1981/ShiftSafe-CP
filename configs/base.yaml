@@ -1,0 +1,77 @@
+# Global reproducibility
+random_seed: 42
+numpy_seed: 42
+torch_seed: 42
+cuda_seed: 42
+torch_deterministic: true
+torch_benchmark: false
+
+# Device
+device: "cuda"
+gpu_id: 0
+
+# Paths
+data_dir: "./data"
+raw_data_dir: "./data/raw"
+processed_data_dir: "./data/processed"
+results_dir: "./results"
+config_dir: "./configs"
+
+# Logging
+log_level: "INFO"
+log_dir: "./results/logs"
+
+# Datasets
+datasets:
+  D1_uci165:
+    name: "UCI #165 Concrete Compressive Strength"
+    source: "ucimlrepo"
+    ucimlrepo_id: 165
+    n_expected: 1030
+    domains: ["uci_165"]
+
+  D2_uci182:
+    name: "UCI #182 Concrete Slump Test"
+    source: "uci_archive"  # ucimlrepo id=182 often blocked; see data/raw/uci_182/
+    cache_file: "slump_test.csv"
+    n_expected: 103
+    domains: ["uci_182"]
+
+  D3_zviazhynski:
+    name: "Zviazhynski et al. 2025"
+    source: "manual_download"
+    file: "zviazhynski_supplementary.csv"
+    domains: ["zviazhynski_2025"]
+
+  D4_mondal:
+    name: "Mondal 2026 Fly-Ash Concrete"
+    source: "reconstructed"
+    file: "mondal_2026_55mixes.csv"
+    n_expected: 55
+    domains: ["mondal_controlled"]
+
+  D5_extra:
+    name: "User-provided fly-ash datasets"
+    source: "manual"
+    glob_pattern: "data/raw/extra/*.csv"
+    domains: ["extra_*"]
+
+# Feature engineering
+feature_engineering:
+  derive_ratios: true
+  derive_interaction: true
+  scale_features: "standardize"
+  handle_missing: "mean"
+  filter_outliers: true
+  outlier_method: "iqr"
+  outlier_threshold: 3.0
+
+# Evaluation
+evaluation:
+  alpha_levels: [0.05, 0.10, 0.20]
+  lodo_n_seeds: 10
+  cv_folds: 5
+  train_calib_split: 0.8
+
+# Optuna (override in base_learners.yaml)
+n_optuna_trials: 100

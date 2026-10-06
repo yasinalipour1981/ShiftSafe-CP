@@ -1,0 +1,37 @@
+# Extension E: external SOTA baselines (post-confirmatory)
+random_seed: 142
+device: "cuda"
+n_optuna_trials: 0
+
+evaluation:
+  protocol: extension_e
+  primary_K: 20
+  primary_alpha: 0.10
+  alpha_levels: [0.10]  # primary only; cheap arms may sweep in runner
+  held_out_folds: [D1, D2, D4]
+  train_calib_split: 0.8
+
+models:
+  lightgbm:
+    enabled: true
+    n_trials: 0
+  xgboost:
+    enabled: false
+  catboost:
+    enabled: false
+  deep_mlp:
+    enabled: false
+
+methods_to_evaluate:
+  - CQR-target
+  - GPR-target
+  - GPR-transfer
+  - JKplus-source
+  - TabPFN-target
+  - WeightedCP-v2
+
+extension_e:
+  seeds_start: 142
+  seeds_count: 50
+  jk_bootstrap_reps: 10
+  jk_max_calib: 300

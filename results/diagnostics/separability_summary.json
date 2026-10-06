@@ -1,0 +1,118 @@
+[
+  {
+    "fold": "D1",
+    "AUC_all_features": 0.9974,
+    "AUC_physical": 0.6991,
+    "verdict": "artificial separability: use physical-subspace ratio",
+    "top5_features": [
+      {
+        "feature": "coarse_agg",
+        "coef": 3.8475292441563647
+      },
+      {
+        "feature": "log_age",
+        "coef": 2.3461027462965687
+      },
+      {
+        "feature": "water",
+        "coef": -1.897403323900521
+      },
+      {
+        "feature": "interaction_w_cm_f_cm",
+        "coef": 1.8500095924458544
+      },
+      {
+        "feature": "w_cm",
+        "coef": 1.6028624071541522
+      }
+    ],
+    "note": ""
+  },
+  {
+    "fold": "D2",
+    "AUC_all_features": 1.0,
+    "AUC_physical": 0.978,
+    "verdict": "genuine disjoint support: weighted CP cannot work; v3 target-anchored path is primary",
+    "top5_features": [
+      {
+        "feature": "log_age",
+        "coef": -4.063812320359949
+      },
+      {
+        "feature": "age_sqrt",
+        "coef": -1.2765977076148598
+      },
+      {
+        "feature": "water",
+        "coef": 1.1790597273468497
+      },
+      {
+        "feature": "fly_ash",
+        "coef": 0.7580475843123592
+      },
+      {
+        "feature": "superplasticizer",
+        "coef": 0.6945872584515229
+      }
+    ],
+    "note": ""
+  },
+  {
+    "fold": "D3",
+    "AUC_all_features": 0.9998,
+    "AUC_physical": 0.9569,
+    "verdict": "genuine disjoint support: weighted CP cannot work; v3 target-anchored path is primary",
+    "top5_features": [
+      {
+        "feature": "fine_agg",
+        "coef": 2.6066302033646163
+      },
+      {
+        "feature": "water",
+        "coef": 2.2087357621052655
+      },
+      {
+        "feature": "superplasticizer",
+        "coef": -1.1873968356150144
+      },
+      {
+        "feature": "log_age",
+        "coef": 1.1863602925196524
+      },
+      {
+        "feature": "coarse_agg",
+        "coef": -1.0952045788327132
+      }
+    ],
+    "note": ""
+  },
+  {
+    "fold": "D4",
+    "AUC_all_features": 1.0,
+    "AUC_physical": 0.6636,
+    "verdict": "artificial separability: use physical-subspace ratio",
+    "top5_features": [
+      {
+        "feature": "coarse_agg",
+        "coef": -2.3270234060231454
+      },
+      {
+        "feature": "fine_agg",
+        "coef": -2.1508116409181293
+      },
+      {
+        "feature": "superplasticizer",
+        "coef": -0.789638640037355
+      },
+      {
+        "feature": "water",
+        "coef": -0.39494689592452475
+      },
+      {
+        "feature": "w_cm",
+        "coef": -0.28927219498530893
+      }
+    ],
+    "note": "FLAG: D4/Mondal uses synthetic-reconstructed data; separability may reflect reconstruction noise."
+  }
+]

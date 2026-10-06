@@ -1,0 +1,6 @@
+Method,Fit (sec),Calibration (sec),Inference/1000 (sec),Peak GPU Memory (MB)
+AdaptiveJackknifeCP,3.968,0.35,0.006,N/A
+AdaptiveSplitCP,3.968,0.007,0.004,N/A
+SplitCP,3.968,0.001,0.003,N/A
+TargetOnlyCP,3.968,0.001,0.001,N/A
+TransferCal-CP-affine-localsigma,3.968,0.002,0.004,N/A

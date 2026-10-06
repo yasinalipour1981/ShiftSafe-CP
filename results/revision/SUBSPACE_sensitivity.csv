@@ -1,0 +1,401 @@
+seed,held_out,subspace,n_vars,auc
+142,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+142,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+142,D1,"w/cm, f/cm only",2,0.6424998023917572
+142,D1,published + superplasticizer,5,0.7167558374432201
+142,D1,published + slag fraction,5,0.6151893770731771
+142,D1,mix proportions (all 8 raw),8,0.9821779136070438
+142,D1,published minus w_cm,3,0.5674472584283676
+142,D1,published minus f_cm,3,0.4990577779151387
+142,D1,published minus age,3,0.6015440520055664
+142,D1,published minus binder_total,3,0.5639209707884418
+142,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+142,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+142,D2,"w/cm, f/cm only",2,0.7783038690920464
+142,D2,published + superplasticizer,5,0.974445528472622
+142,D2,published + slag fraction,5,0.9820411273182209
+142,D2,mix proportions (all 8 raw),8,0.9865894163307957
+142,D2,published minus w_cm,3,0.9654707436788718
+142,D2,published minus f_cm,3,0.9779444959802103
+142,D2,published minus age,3,0.8726325535438836
+142,D2,published minus binder_total,3,0.9627982410309996
+142,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+142,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+142,D3,"w/cm, f/cm only",2,0.8685714285714285
+142,D3,published + superplasticizer,5,0.9639650145772596
+142,D3,published + slag fraction,5,0.9676967930029156
+142,D3,mix proportions (all 8 raw),8,0.9976676384839649
+142,D3,published minus w_cm,3,0.8047230320699708
+142,D3,published minus f_cm,3,0.9076384839650146
+142,D3,published minus age,3,0.954868804664723
+142,D3,published minus binder_total,3,0.8733527696793002
+142,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+142,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+142,D4,"w/cm, f/cm only",2,0.6376655208179756
+142,D4,published + superplasticizer,5,0.9788637086699102
+142,D4,published + slag fraction,5,0.5146973071262477
+142,D4,mix proportions (all 8 raw),8,1.0
+142,D4,published minus w_cm,3,0.5102873787870558
+142,D4,published minus f_cm,3,0.45594400602152535
+142,D4,published minus age,3,0.6453584818668798
+142,D4,published minus binder_total,3,0.5236320089469315
+143,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+143,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+143,D1,"w/cm, f/cm only",2,0.6424998023917572
+143,D1,published + superplasticizer,5,0.7167558374432201
+143,D1,published + slag fraction,5,0.6151893770731771
+143,D1,mix proportions (all 8 raw),8,0.9821779136070438
+143,D1,published minus w_cm,3,0.5674472584283676
+143,D1,published minus f_cm,3,0.4990577779151387
+143,D1,published minus age,3,0.6015440520055664
+143,D1,published minus binder_total,3,0.5639209707884418
+143,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+143,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+143,D2,"w/cm, f/cm only",2,0.7783038690920464
+143,D2,published + superplasticizer,5,0.974445528472622
+143,D2,published + slag fraction,5,0.9820411273182209
+143,D2,mix proportions (all 8 raw),8,0.9865894163307957
+143,D2,published minus w_cm,3,0.9654707436788718
+143,D2,published minus f_cm,3,0.9779444959802103
+143,D2,published minus age,3,0.8726325535438836
+143,D2,published minus binder_total,3,0.9627982410309996
+143,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+143,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+143,D3,"w/cm, f/cm only",2,0.8685714285714285
+143,D3,published + superplasticizer,5,0.9639650145772596
+143,D3,published + slag fraction,5,0.9676967930029156
+143,D3,mix proportions (all 8 raw),8,0.9976676384839649
+143,D3,published minus w_cm,3,0.8047230320699708
+143,D3,published minus f_cm,3,0.9076384839650146
+143,D3,published minus age,3,0.954868804664723
+143,D3,published minus binder_total,3,0.8733527696793002
+143,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+143,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+143,D4,"w/cm, f/cm only",2,0.6376655208179756
+143,D4,published + superplasticizer,5,0.9788637086699102
+143,D4,published + slag fraction,5,0.5146973071262477
+143,D4,mix proportions (all 8 raw),8,1.0
+143,D4,published minus w_cm,3,0.5102873787870558
+143,D4,published minus f_cm,3,0.45594400602152535
+143,D4,published minus age,3,0.6453584818668798
+143,D4,published minus binder_total,3,0.5236320089469315
+144,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+144,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+144,D1,"w/cm, f/cm only",2,0.6424998023917572
+144,D1,published + superplasticizer,5,0.7167558374432201
+144,D1,published + slag fraction,5,0.6151893770731771
+144,D1,mix proportions (all 8 raw),8,0.9821779136070438
+144,D1,published minus w_cm,3,0.5674472584283676
+144,D1,published minus f_cm,3,0.4990577779151387
+144,D1,published minus age,3,0.6015440520055664
+144,D1,published minus binder_total,3,0.5639209707884418
+144,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+144,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+144,D2,"w/cm, f/cm only",2,0.7783038690920464
+144,D2,published + superplasticizer,5,0.974445528472622
+144,D2,published + slag fraction,5,0.9820411273182209
+144,D2,mix proportions (all 8 raw),8,0.9865894163307957
+144,D2,published minus w_cm,3,0.9654707436788718
+144,D2,published minus f_cm,3,0.9779444959802103
+144,D2,published minus age,3,0.8726325535438836
+144,D2,published minus binder_total,3,0.9627982410309996
+144,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+144,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+144,D3,"w/cm, f/cm only",2,0.8685714285714285
+144,D3,published + superplasticizer,5,0.9639650145772596
+144,D3,published + slag fraction,5,0.9676967930029156
+144,D3,mix proportions (all 8 raw),8,0.9976676384839649
+144,D3,published minus w_cm,3,0.8047230320699708
+144,D3,published minus f_cm,3,0.9076384839650146
+144,D3,published minus age,3,0.954868804664723
+144,D3,published minus binder_total,3,0.8733527696793002
+144,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+144,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+144,D4,"w/cm, f/cm only",2,0.6376655208179756
+144,D4,published + superplasticizer,5,0.9788637086699102
+144,D4,published + slag fraction,5,0.5146973071262477
+144,D4,mix proportions (all 8 raw),8,1.0
+144,D4,published minus w_cm,3,0.5102873787870558
+144,D4,published minus f_cm,3,0.45594400602152535
+144,D4,published minus age,3,0.6453584818668798
+144,D4,published minus binder_total,3,0.5236320089469315
+145,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+145,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+145,D1,"w/cm, f/cm only",2,0.6424998023917572
+145,D1,published + superplasticizer,5,0.7167558374432201
+145,D1,published + slag fraction,5,0.6151893770731771
+145,D1,mix proportions (all 8 raw),8,0.9821779136070438
+145,D1,published minus w_cm,3,0.5674472584283676
+145,D1,published minus f_cm,3,0.4990577779151387
+145,D1,published minus age,3,0.6015440520055664
+145,D1,published minus binder_total,3,0.5639209707884418
+145,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+145,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+145,D2,"w/cm, f/cm only",2,0.7783038690920464
+145,D2,published + superplasticizer,5,0.974445528472622
+145,D2,published + slag fraction,5,0.9820411273182209
+145,D2,mix proportions (all 8 raw),8,0.9865894163307957
+145,D2,published minus w_cm,3,0.9654707436788718
+145,D2,published minus f_cm,3,0.9779444959802103
+145,D2,published minus age,3,0.8726325535438836
+145,D2,published minus binder_total,3,0.9627982410309996
+145,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+145,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+145,D3,"w/cm, f/cm only",2,0.8685714285714285
+145,D3,published + superplasticizer,5,0.9639650145772596
+145,D3,published + slag fraction,5,0.9676967930029156
+145,D3,mix proportions (all 8 raw),8,0.9976676384839649
+145,D3,published minus w_cm,3,0.8047230320699708
+145,D3,published minus f_cm,3,0.9076384839650146
+145,D3,published minus age,3,0.954868804664723
+145,D3,published minus binder_total,3,0.8733527696793002
+145,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+145,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+145,D4,"w/cm, f/cm only",2,0.6376655208179756
+145,D4,published + superplasticizer,5,0.9788637086699102
+145,D4,published + slag fraction,5,0.5146973071262477
+145,D4,mix proportions (all 8 raw),8,1.0
+145,D4,published minus w_cm,3,0.5102873787870558
+145,D4,published minus f_cm,3,0.45594400602152535
+145,D4,published minus age,3,0.6453584818668798
+145,D4,published minus binder_total,3,0.5236320089469315
+146,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+146,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+146,D1,"w/cm, f/cm only",2,0.6424998023917572
+146,D1,published + superplasticizer,5,0.7167558374432201
+146,D1,published + slag fraction,5,0.6151893770731771
+146,D1,mix proportions (all 8 raw),8,0.9821779136070438
+146,D1,published minus w_cm,3,0.5674472584283676
+146,D1,published minus f_cm,3,0.4990577779151387
+146,D1,published minus age,3,0.6015440520055664
+146,D1,published minus binder_total,3,0.5639209707884418
+146,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+146,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+146,D2,"w/cm, f/cm only",2,0.7783038690920464
+146,D2,published + superplasticizer,5,0.974445528472622
+146,D2,published + slag fraction,5,0.9820411273182209
+146,D2,mix proportions (all 8 raw),8,0.9865894163307957
+146,D2,published minus w_cm,3,0.9654707436788718
+146,D2,published minus f_cm,3,0.9779444959802103
+146,D2,published minus age,3,0.8726325535438836
+146,D2,published minus binder_total,3,0.9627982410309996
+146,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+146,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+146,D3,"w/cm, f/cm only",2,0.8685714285714285
+146,D3,published + superplasticizer,5,0.9639650145772596
+146,D3,published + slag fraction,5,0.9676967930029156
+146,D3,mix proportions (all 8 raw),8,0.9976676384839649
+146,D3,published minus w_cm,3,0.8047230320699708
+146,D3,published minus f_cm,3,0.9076384839650146
+146,D3,published minus age,3,0.954868804664723
+146,D3,published minus binder_total,3,0.8733527696793002
+146,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+146,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+146,D4,"w/cm, f/cm only",2,0.6376655208179756
+146,D4,published + superplasticizer,5,0.9788637086699102
+146,D4,published + slag fraction,5,0.5146973071262477
+146,D4,mix proportions (all 8 raw),8,1.0
+146,D4,published minus w_cm,3,0.5102873787870558
+146,D4,published minus f_cm,3,0.45594400602152535
+146,D4,published minus age,3,0.6453584818668798
+146,D4,published minus binder_total,3,0.5236320089469315
+147,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+147,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+147,D1,"w/cm, f/cm only",2,0.6424998023917572
+147,D1,published + superplasticizer,5,0.7167558374432201
+147,D1,published + slag fraction,5,0.6151893770731771
+147,D1,mix proportions (all 8 raw),8,0.9821779136070438
+147,D1,published minus w_cm,3,0.5674472584283676
+147,D1,published minus f_cm,3,0.4990577779151387
+147,D1,published minus age,3,0.6015440520055664
+147,D1,published minus binder_total,3,0.5639209707884418
+147,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+147,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+147,D2,"w/cm, f/cm only",2,0.7783038690920464
+147,D2,published + superplasticizer,5,0.974445528472622
+147,D2,published + slag fraction,5,0.9820411273182209
+147,D2,mix proportions (all 8 raw),8,0.9865894163307957
+147,D2,published minus w_cm,3,0.9654707436788718
+147,D2,published minus f_cm,3,0.9779444959802103
+147,D2,published minus age,3,0.8726325535438836
+147,D2,published minus binder_total,3,0.9627982410309996
+147,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+147,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+147,D3,"w/cm, f/cm only",2,0.8685714285714285
+147,D3,published + superplasticizer,5,0.9639650145772596
+147,D3,published + slag fraction,5,0.9676967930029156
+147,D3,mix proportions (all 8 raw),8,0.9976676384839649
+147,D3,published minus w_cm,3,0.8047230320699708
+147,D3,published minus f_cm,3,0.9076384839650146
+147,D3,published minus age,3,0.954868804664723
+147,D3,published minus binder_total,3,0.8733527696793002
+147,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+147,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+147,D4,"w/cm, f/cm only",2,0.6376655208179756
+147,D4,published + superplasticizer,5,0.9788637086699102
+147,D4,published + slag fraction,5,0.5146973071262477
+147,D4,mix proportions (all 8 raw),8,1.0
+147,D4,published minus w_cm,3,0.5102873787870558
+147,D4,published minus f_cm,3,0.45594400602152535
+147,D4,published minus age,3,0.6453584818668798
+147,D4,published minus binder_total,3,0.5236320089469315
+148,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+148,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+148,D1,"w/cm, f/cm only",2,0.6424998023917572
+148,D1,published + superplasticizer,5,0.7167558374432201
+148,D1,published + slag fraction,5,0.6151893770731771
+148,D1,mix proportions (all 8 raw),8,0.9821779136070438
+148,D1,published minus w_cm,3,0.5674472584283676
+148,D1,published minus f_cm,3,0.4990577779151387
+148,D1,published minus age,3,0.6015440520055664
+148,D1,published minus binder_total,3,0.5639209707884418
+148,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+148,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+148,D2,"w/cm, f/cm only",2,0.7783038690920464
+148,D2,published + superplasticizer,5,0.974445528472622
+148,D2,published + slag fraction,5,0.9820411273182209
+148,D2,mix proportions (all 8 raw),8,0.9865894163307957
+148,D2,published minus w_cm,3,0.9654707436788718
+148,D2,published minus f_cm,3,0.9779444959802103
+148,D2,published minus age,3,0.8726325535438836
+148,D2,published minus binder_total,3,0.9627982410309996
+148,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+148,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+148,D3,"w/cm, f/cm only",2,0.8685714285714285
+148,D3,published + superplasticizer,5,0.9639650145772596
+148,D3,published + slag fraction,5,0.9676967930029156
+148,D3,mix proportions (all 8 raw),8,0.9976676384839649
+148,D3,published minus w_cm,3,0.8047230320699708
+148,D3,published minus f_cm,3,0.9076384839650146
+148,D3,published minus age,3,0.954868804664723
+148,D3,published minus binder_total,3,0.8733527696793002
+148,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+148,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+148,D4,"w/cm, f/cm only",2,0.6376655208179756
+148,D4,published + superplasticizer,5,0.9788637086699102
+148,D4,published + slag fraction,5,0.5146973071262477
+148,D4,mix proportions (all 8 raw),8,1.0
+148,D4,published minus w_cm,3,0.5102873787870558
+148,D4,published minus f_cm,3,0.45594400602152535
+148,D4,published minus age,3,0.6453584818668798
+148,D4,published minus binder_total,3,0.5236320089469315
+149,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+149,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+149,D1,"w/cm, f/cm only",2,0.6424998023917572
+149,D1,published + superplasticizer,5,0.7167558374432201
+149,D1,published + slag fraction,5,0.6151893770731771
+149,D1,mix proportions (all 8 raw),8,0.9821779136070438
+149,D1,published minus w_cm,3,0.5674472584283676
+149,D1,published minus f_cm,3,0.4990577779151387
+149,D1,published minus age,3,0.6015440520055664
+149,D1,published minus binder_total,3,0.5639209707884418
+149,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+149,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+149,D2,"w/cm, f/cm only",2,0.7783038690920464
+149,D2,published + superplasticizer,5,0.974445528472622
+149,D2,published + slag fraction,5,0.9820411273182209
+149,D2,mix proportions (all 8 raw),8,0.9865894163307957
+149,D2,published minus w_cm,3,0.9654707436788718
+149,D2,published minus f_cm,3,0.9779444959802103
+149,D2,published minus age,3,0.8726325535438836
+149,D2,published minus binder_total,3,0.9627982410309996
+149,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+149,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+149,D3,"w/cm, f/cm only",2,0.8685714285714285
+149,D3,published + superplasticizer,5,0.9639650145772596
+149,D3,published + slag fraction,5,0.9676967930029156
+149,D3,mix proportions (all 8 raw),8,0.9976676384839649
+149,D3,published minus w_cm,3,0.8047230320699708
+149,D3,published minus f_cm,3,0.9076384839650146
+149,D3,published minus age,3,0.954868804664723
+149,D3,published minus binder_total,3,0.8733527696793002
+149,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+149,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+149,D4,"w/cm, f/cm only",2,0.6376655208179756
+149,D4,published + superplasticizer,5,0.9788637086699102
+149,D4,published + slag fraction,5,0.5146973071262477
+149,D4,mix proportions (all 8 raw),8,1.0
+149,D4,published minus w_cm,3,0.5102873787870558
+149,D4,published minus f_cm,3,0.45594400602152535
+149,D4,published minus age,3,0.6453584818668798
+149,D4,published minus binder_total,3,0.5236320089469315
+150,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+150,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+150,D1,"w/cm, f/cm only",2,0.6424998023917572
+150,D1,published + superplasticizer,5,0.7167558374432201
+150,D1,published + slag fraction,5,0.6151893770731771
+150,D1,mix proportions (all 8 raw),8,0.9821779136070438
+150,D1,published minus w_cm,3,0.5674472584283676
+150,D1,published minus f_cm,3,0.4990577779151387
+150,D1,published minus age,3,0.6015440520055664
+150,D1,published minus binder_total,3,0.5639209707884418
+150,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+150,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+150,D2,"w/cm, f/cm only",2,0.7783038690920464
+150,D2,published + superplasticizer,5,0.974445528472622
+150,D2,published + slag fraction,5,0.9820411273182209
+150,D2,mix proportions (all 8 raw),8,0.9865894163307957
+150,D2,published minus w_cm,3,0.9654707436788718
+150,D2,published minus f_cm,3,0.9779444959802103
+150,D2,published minus age,3,0.8726325535438836
+150,D2,published minus binder_total,3,0.9627982410309996
+150,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+150,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+150,D3,"w/cm, f/cm only",2,0.8685714285714285
+150,D3,published + superplasticizer,5,0.9639650145772596
+150,D3,published + slag fraction,5,0.9676967930029156
+150,D3,mix proportions (all 8 raw),8,0.9976676384839649
+150,D3,published minus w_cm,3,0.8047230320699708
+150,D3,published minus f_cm,3,0.9076384839650146
+150,D3,published minus age,3,0.954868804664723
+150,D3,published minus binder_total,3,0.8733527696793002
+150,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+150,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+150,D4,"w/cm, f/cm only",2,0.6376655208179756
+150,D4,published + superplasticizer,5,0.9788637086699102
+150,D4,published + slag fraction,5,0.5146973071262477
+150,D4,mix proportions (all 8 raw),8,1.0
+150,D4,published minus w_cm,3,0.5102873787870558
+150,D4,published minus f_cm,3,0.45594400602152535
+150,D4,published minus age,3,0.6453584818668798
+150,D4,published minus binder_total,3,0.5236320089469315
+151,D1,"published (w/cm, f/cm, age, binder)",4,0.536293568173066
+151,D1,"Abrams minimal (w/cm, age)",2,0.49539055252085207
+151,D1,"w/cm, f/cm only",2,0.6424998023917572
+151,D1,published + superplasticizer,5,0.7167558374432201
+151,D1,published + slag fraction,5,0.6151893770731771
+151,D1,mix proportions (all 8 raw),8,0.9821779136070438
+151,D1,published minus w_cm,3,0.5674472584283676
+151,D1,published minus f_cm,3,0.4990577779151387
+151,D1,published minus age,3,0.6015440520055664
+151,D1,published minus binder_total,3,0.5639209707884418
+151,D2,"published (w/cm, f/cm, age, binder)",4,0.9736265984972882
+151,D2,"Abrams minimal (w/cm, age)",2,0.964520539668323
+151,D2,"w/cm, f/cm only",2,0.7783038690920464
+151,D2,published + superplasticizer,5,0.974445528472622
+151,D2,published + slag fraction,5,0.9820411273182209
+151,D2,mix proportions (all 8 raw),8,0.9865894163307957
+151,D2,published minus w_cm,3,0.9654707436788718
+151,D2,published minus f_cm,3,0.9779444959802103
+151,D2,published minus age,3,0.8726325535438836
+151,D2,published minus binder_total,3,0.9627982410309996
+151,D3,"published (w/cm, f/cm, age, binder)",4,0.9544023323615161
+151,D3,"Abrams minimal (w/cm, age)",2,0.8080466472303207
+151,D3,"w/cm, f/cm only",2,0.8685714285714285
+151,D3,published + superplasticizer,5,0.9639650145772596
+151,D3,published + slag fraction,5,0.9676967930029156
+151,D3,mix proportions (all 8 raw),8,0.9976676384839649
+151,D3,published minus w_cm,3,0.8047230320699708
+151,D3,published minus f_cm,3,0.9076384839650146
+151,D3,published minus age,3,0.954868804664723
+151,D3,published minus binder_total,3,0.8733527696793002
+151,D4,"published (w/cm, f/cm, age, binder)",4,0.532802602343946
+151,D4,"Abrams minimal (w/cm, age)",2,0.3866385490787946
+151,D4,"w/cm, f/cm only",2,0.6376655208179756
+151,D4,published + superplasticizer,5,0.9788637086699102
+151,D4,published + slag fraction,5,0.5146973071262477
+151,D4,mix proportions (all 8 raw),8,1.0
+151,D4,published minus w_cm,3,0.5102873787870558
+151,D4,published minus f_cm,3,0.45594400602152535
+151,D4,published minus age,3,0.6453584818668798
+151,D4,published minus binder_total,3,0.5236320089469315

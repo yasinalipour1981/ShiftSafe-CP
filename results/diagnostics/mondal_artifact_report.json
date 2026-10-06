@@ -1,0 +1,8 @@
+{
+  "fold": "D4",
+  "mean_csv_minus_equation": 0.08328179551286818,
+  "mean_mu_minus_equation": 9.85347906754923,
+  "fitted_offset_intercept": 27.44266353605137,
+  "fitted_slope": 0.49507303227616906,
+  "flag_synthetic_artifact": true
+}

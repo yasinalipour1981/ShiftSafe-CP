@@ -1,0 +1,28 @@
+[
+  {
+    "method_a": "AdaptiveJackknifeCP",
+    "method_b": "TargetOnlyCP",
+    "metric": "winkler_score",
+    "statistic": 793.0,
+    "p_value": 6.459683721209306e-20,
+    "effect_size_rank_biserial_r": 0.9299779249448124,
+    "wins_a": 127,
+    "n_pairs": 150,
+    "significant_at_0.05": "True",
+    "holm_p_value": 1.2919367442418612e-19,
+    "significant_holm_0.05": true
+  },
+  {
+    "method_a": "TransferCal-CP-affine-localsigma",
+    "method_b": "TargetOnlyCP",
+    "metric": "winkler_score",
+    "statistic": 3544.0,
+    "p_value": 7.043447665604751e-05,
+    "effect_size_rank_biserial_r": 0.6870640176600442,
+    "wins_a": 89,
+    "n_pairs": 150,
+    "significant_at_0.05": "True",
+    "holm_p_value": 7.043447665604751e-05,
+    "significant_holm_0.05": true
+  }
+]

@@ -1,0 +1,5 @@
+fold,AUC_all_features,AUC_physical,verdict,note
+D1,0.9974,0.6991,artificial separability: use physical-subspace ratio,
+D2,1.0,0.978,genuine disjoint support: weighted CP cannot work; v3 target-anchored path is primary,
+D3,0.9998,0.9569,genuine disjoint support: weighted CP cannot work; v3 target-anchored path is primary,
+D4,1.0,0.6636,artificial separability: use physical-subspace ratio,FLAG: D4/Mondal uses synthetic-reconstructed data; separability may reflect reconstruction noise.

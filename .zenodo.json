@@ -1,0 +1,22 @@
+{
+  "title": "ShiftSafe-CP / TargetAnchoredJK+: cross-laboratory calibrated prediction intervals for concrete compressive strength",
+  "upload_type": "software",
+  "description": "<p>Code, configuration files and archived results for the paper <em>Reliable Cross-Laboratory Prediction Intervals for Concrete Compressive Strength under Distribution Shift</em> (Computers and Concrete, manuscript 26M-08-239). The repository contains the leave-one-domain-out protocol, the conformal methods (TargetAnchoredJK+ with the exact jackknife-plus, TargetOnlyJK+, StackedOnlyCP, AdaptiveSplitCP, TargetOnlyCP, TransferCal and split conformal prediction), the external comparators, the shift diagnostics, the result files of the registered confirmatory runs (seeds 142-191) and the scripts that regenerate every table and figure of the paper.</p>",
+  "creators": [
+    {"name": "Ghasemian, Javad", "affiliation": "School of Mathematics and Computer Science, Damghan University, Damghan, Iran"},
+    {"name": "Alipour, Yasin", "affiliation": "School of Mathematics and Computer Science, Damghan University, Damghan, Iran"},
+    {"name": "Talebpour, Mohammad Hosein", "affiliation": "School of Engineering, Damghan University, Damghan, Iran"}
+  ],
+  "keywords": [
+    "concrete compressive strength",
+    "conformal prediction",
+    "prediction intervals",
+    "distribution shift",
+    "cross-laboratory transfer",
+    "uncertainty quantification",
+    "jackknife+"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng"
+}

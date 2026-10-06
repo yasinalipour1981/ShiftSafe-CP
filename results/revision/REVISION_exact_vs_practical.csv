@@ -1,0 +1,17 @@
+fold,method,coverage,width,winkler
+D1,AdaptiveJackknifeCP,0.9299,53.7081,68.1788
+D1,AdaptiveJackknifeCP-exactJK+,0.9191,50.3588,65.2235
+D2,AdaptiveJackknifeCP,0.8973,19.2237,26.9493
+D2,AdaptiveJackknifeCP-exactJK+,0.894,18.7315,25.9103
+D4,AdaptiveJackknifeCP,0.9027,14.3693,18.6266
+D4,AdaptiveJackknifeCP-exactJK+,0.9039,13.9886,18.4432
+pooled,AdaptiveJackknifeCP,0.91,29.1004,37.9182
+pooled,AdaptiveJackknifeCP-exactJK+,0.9057,27.6929,36.5257
+D1,TargetOnlyJKplus,0.9185,58.6145,84.704
+D1,TargetOnlyJKplus-exactJK+,0.9,54.4354,82.98
+D2,TargetOnlyJKplus,0.913,20.0003,25.6565
+D2,TargetOnlyJKplus-exactJK+,0.9027,18.8284,25.0602
+D4,TargetOnlyJKplus,0.9171,31.6127,40.0827
+D4,TargetOnlyJKplus-exactJK+,0.906,30.5441,40.4288
+pooled,TargetOnlyJKplus,0.9162,36.7425,50.1477
+pooled,TargetOnlyJKplus-exactJK+,0.9029,34.6026,49.4897

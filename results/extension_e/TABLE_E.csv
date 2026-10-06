@@ -1,0 +1,12 @@
+method,coverage,coverage_ci_lo,coverage_ci_hi,width_mpa,winkler,guarantee_scope,guaranteed,infer_time_sec
+AdaptiveJackknifeCP,0.9218,0.9179,0.9256,30.55,39.16,target,True,0.001
+TabPFN-target,0.918,0.914,0.9219,33.94,40.61,target,True,0.2745
+TransferCal-CP-affine-localsigma,0.9257,0.9219,0.9295,39.75,45.91,target,True,0.0009
+GPR-transfer,0.4683,0.4611,0.4754,7.71,60.66,none,False,0.0075
+AdaptiveSplitCP,0.9095,0.9054,0.9136,53.46,70.61,target,True,0.001
+TargetOnlyCP,0.92,0.9161,0.9239,56.95,71.77,target,True,0.0002
+JKplus-source,0.5291,0.522,0.5363,22.9,92.66,source,True,0.0
+GPR-target,0.3727,0.3657,0.3796,6.46,93.51,none,False,0.0078
+WeightedCP-v2,0.2546,0.2484,0.2609,48.58,201.67,source,True,0.0029
+CQR-target,0.9069,0.9027,0.911,182.24,216.74,target,True,0.0005
+SplitCP,0.0423,0.0394,0.0452,2.95,241.34,source,True,0.0009

@@ -1,0 +1,24 @@
+{
+  "datasets": {
+    "D1": {
+      "path": "data\\processed\\D1_harmonized.parquet",
+      "n_samples": 939,
+      "domain_id": "D1_uci165"
+    },
+    "D2": {
+      "path": "data\\processed\\D2_harmonized.parquet",
+      "n_samples": 103,
+      "domain_id": "D2_uci182"
+    },
+    "D3": {
+      "path": "data\\processed\\D3_harmonized.parquet",
+      "n_samples": 35,
+      "domain_id": "D3_zviazhynski"
+    },
+    "D4": {
+      "path": "data\\processed\\D4_harmonized.parquet",
+      "n_samples": 183,
+      "domain_id": "D4_mondal"
+    }
+  }
+}

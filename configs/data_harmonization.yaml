@@ -1,0 +1,67 @@
+# Feature harmonization across datasets
+canonical_columns:
+  - cement
+  - slag
+  - fly_ash
+  - water
+  - superplasticizer
+  - coarse_agg
+  - fine_agg
+  - age
+  - strength_mpa
+
+column_aliases:
+  cement:
+    - "Cement (component 1)(kg in a m^3 mixture)"
+    - "cement (kg/m3)"
+    - "Cement"
+  slag:
+    - "Blast Furnace Slag (component 2)(kg in a m^3 mixture)"
+    - "slag (kg/m3)"
+    - "Slag"
+  fly_ash:
+    - "Fly Ash (component 3)(kg in a m^3 mixture)"
+    - "flyash (kg/m3)"
+    - "flyash"
+    - "Fly Ash"
+  water:
+    - "Water  (component 4)(kg in a m^3 mixture)"
+    - "water (kg/m3)"
+    - "Water"
+  superplasticizer:
+    - "Superplasticizer (component 5)(kg in a m^3 mixture)"
+    - "superplasticizer (kg/m3)"
+    - "Superplasticizer"
+  coarse_agg:
+    - "Coarse Aggregate  (component 6)(kg in a m^3 mixture)"
+    - "coarse aggregate (kg/m3)"
+    - "Coarse Aggregate"
+  fine_agg:
+    - "Fine Aggregate (component 7)(kg in a m^3 mixture)"
+    - "fine aggregate (kg/m3)"
+    - "Fine Aggregate"
+  age:
+    - "Age (day)"
+    - "age (days)"
+    - "Age"
+  strength_mpa:
+    - "Concrete compressive strength"
+    - "Compressive Strength (MPa)"
+    - "compressive strength (MPa)"
+    - "Strength (MPa)"
+
+derived_features:
+  - w_cm
+  - f_cm
+  - c_cm
+  - s_cm
+  - binder_total
+  - interaction_w_cm_f_cm
+  - age_sqrt
+  - log_age
+
+filters:
+  w_cm_min: 0.25
+  w_cm_max: 1.0
+  strength_min: 1.0
+  strength_max: 150.0
