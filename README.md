@@ -6,7 +6,7 @@ Code, configuration files and archived results for
 
 > J. Ghasemian, Y. Alipour, M. H. Talebpour, **Reliable Cross-Laboratory Prediction
 > Intervals for Concrete Compressive Strength under Distribution Shift**,
-> *Computers and Concrete* (manuscript 26M-08-239, under review).
+> *Computers and Concrete*, accepted for publication (October 2026).
 
 The paper asks what happens to conformal prediction intervals for concrete
 compressive strength when a model calibrated in one laboratory is used in another.
@@ -159,7 +159,7 @@ appears, please cite it as
 
 > Ghasemian, J., Alipour, Y., Talebpour, M. H. (2026). Reliable Cross-Laboratory
 > Prediction Intervals for Concrete Compressive Strength under Distribution Shift.
-> *Computers and Concrete*, under review.
+> *Computers and Concrete*, accepted for publication (2026).
 
 ## Contact
 

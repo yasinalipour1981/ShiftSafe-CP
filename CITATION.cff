@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
   If you use this code or the archived results, please cite the paper below
-  (under review) and this repository.
+  (accepted for publication in Computers and Concrete, 2026) and this repository.
 type: software
 title: >-
   ShiftSafe-CP / TargetAnchoredJK+: cross-laboratory calibrated prediction
@@ -49,4 +49,4 @@ preferred-citation:
       given-names: Mohammad Hosein
   journal: Computers and Concrete
   year: 2026
-  notes: Manuscript 26M-08-239, under review.
+  notes: Accepted for publication, October 2026 (manuscript 26M-08-239).
