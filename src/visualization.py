@@ -817,7 +817,7 @@ def figure_coverage_vs_k(
                         [ks[i] for i in ng_idx], [means[i] for i in ng_idx],
                         ls=":", color=color, alpha=0.65, linewidth=1.2,
                     )
-                if not any(h.get_label() == method for h in method_handles):
+                if not any(h.get_label() == display_name(method) for h in method_handles):
                     method_handles.append(
                         Line2D(
                             [0], [0], marker="o", linestyle="-", color=color,
